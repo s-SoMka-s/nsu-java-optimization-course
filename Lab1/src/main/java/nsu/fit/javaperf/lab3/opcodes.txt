@@ -1,0 +1,17 @@
+1) 2a - aload_0 - load a reference onto the stack from local variable 0
+
+2) b4 - getfield - get a field value of an object objectref, where the field is identified by field reference in the constant pool index
+
+3) 1b - iload_1 - load an int value from local variable 1
+
+4) 68 - imul - multiply two integers
+
+5) 3d - istore_2 - store int value into variable 2
+
+6) 2a - aload_0 - load a reference onto the stack from local variable 0
+
+7) 1c - iload_2 - load an int value from local variable 2
+
+8) b5 - putfield - set field to value in an object objectref, where the field is identified by a field reference index in constant pool
+
+9) b1 -  return - return void from method
