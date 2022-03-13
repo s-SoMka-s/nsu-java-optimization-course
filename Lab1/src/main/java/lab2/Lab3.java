@@ -1,4 +1,4 @@
-package nsu.fit.javaperf.lab3;
+package lab2;
 
 public class Lab3 {
 
