@@ -1,0 +1,19 @@
+// variables
+// var - изменяемая
+// const - неизменяемая
+
+// автоматический вывод типа
+// изменяемые переменные
+var number = 12;
+var str = "asdasd";
+
+// константы
+const number = 12;
+const str = "asdasd";
+
+// явное указание типа
+var number: int = 12;
+var str: string = "asdasd";
+
+const number: int = 12;
+const str: string = "asdasd";

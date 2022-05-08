@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f7c2e0e9-0c87-4012-951d-73d34ca8f5b5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/nsu-java-performance-course.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/.idea/libraries/org_objectweb_asm_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/lab5(7)_javaAgent_jassist.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/lab7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/lab5(7)_javaAgent_jassist.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/.idea/Labs.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/.idea/libraries/libs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Labs/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/src/main/java/lab3/Lab3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Labs/src/main/java/lab3/Lab3.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="28sXDVUivycjIxqJvyX2yeyJ7fa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

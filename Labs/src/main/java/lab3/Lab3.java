@@ -13,7 +13,7 @@ public class Lab3 {
         ClassWriter cw = new ClassWriter(ClassWriter.COMPUTE_MAXS |
                 ClassWriter.COMPUTE_FRAMES);
 
-        cw.visit(Opcodes.V14, Opcodes.ACC_PUBLIC, "HelloWorld", null,
+        cw.visit(Opcodes.V1_7, Opcodes.ACC_PUBLIC, "HelloWorld", null,
                 "java/lang/Object", null);
 
         MethodVisitor constructor =
@@ -22,8 +22,7 @@ public class Lab3 {
 
         constructor.visitVarInsn(Opcodes.ALOAD, 0);
 
-        constructor.visitMethodInsn(Opcodes.INVOKESPECIAL,
-                "java/lang/Object", "<init>", "()V", false);
+        constructor.visitMethodInsn(Opcodes.INVOKESPECIAL, "java/lang/Object", "<init>", "()V");
 
         constructor.visitInsn(Opcodes.RETURN);
 
@@ -39,8 +38,7 @@ public class Lab3 {
 
         mv.visitLdcInsn("Hello, World!");
 
-        mv.visitMethodInsn(Opcodes.INVOKEVIRTUAL, "java/io/PrintStream",
-                "println", "(Ljava/lang/String;)V", false);
+        mv.visitMethodInsn(Opcodes.INVOKEVIRTUAL, "java/io/PrintStream", "println", "(Ljava/lang/String;)V");
 
         mv.visitInsn(Opcodes.RETURN);
 

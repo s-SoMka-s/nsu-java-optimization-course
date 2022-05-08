@@ -1,0 +1,9 @@
+if (1 == 2) {
+    if (1 == (2 + 3))
+        const number: int = 12;
+}
+else {
+    var number: int = 12;
+    var number: int = 12;
+    var number: int = 12;
+}

@@ -1,0 +1,1 @@
+gradrew-build && agent-compile && attach-agent && build-with-agent

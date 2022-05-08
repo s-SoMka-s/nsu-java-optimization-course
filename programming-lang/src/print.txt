@@ -1,0 +1,3 @@
+print((12 + 12) + 2);
+const i: int = 12;
+print(i);

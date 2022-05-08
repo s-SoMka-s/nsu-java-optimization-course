@@ -1,0 +1,33 @@
+plugins {
+    id 'java-library'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+
+tasks.named('jar') {
+    manifest {
+        attributes('Implementation-Title': project.name,
+                'Premain-Class': 'TransactionProcessorAgent')
+    }
+    archiveBaseName = "TransactionProcessorAgent"
+    from { configurations.compileClasspath.collect { it.isDirectory() ? it : zipTree(it) } }
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
+
+    implementation 'org.javassist:javassist:3.28.0-GA'
+    implementation group: 'org.ow2.asm', name: 'asm-all', version: '5.0.4'
+}
+
+
+test {
+    useJUnitPlatform()
+}

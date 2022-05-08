@@ -1,0 +1,1 @@
+cd example & jar cvfm TransactionProcessor.jar MANIFEST.MF nsu\fit\javaperf\*.class & cd ..
